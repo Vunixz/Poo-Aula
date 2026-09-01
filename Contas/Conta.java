@@ -1,14 +1,15 @@
-public class conta{
+package Contas;
+public class Conta{
     int numero;
     String titular;
     double saldo;
     double limite;
 
     //construtor
-    public conta(int numero){
+    public Conta(int numero){
         this.numero = numero;
     }
-    public conta(int num, String tit){
+    public Conta(int num, String tit){
         this.numero = num;
         this.titular = tit;
     }

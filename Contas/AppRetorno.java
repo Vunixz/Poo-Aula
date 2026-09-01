@@ -1,9 +1,10 @@
+package Contas;
 
 import javax.swing.JOptionPane;
 
 public class AppRetorno {
     public static void main(String[] args){
-        conta cc1 = new conta(123, "John Doe");
+        Conta cc1 = new Conta(123, "John Doe");
         cc1.depositar(5000);
         cc1.limite = 3000;
 

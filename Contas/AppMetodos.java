@@ -1,7 +1,8 @@
+package Contas;
 public class AppMetodos{
 
     public static void main(String[] args){
-        conta cc = new conta(102, "Alan Turing");
+        Conta cc = new Conta(102, "Alan Turing");
         cc.saldo = 1000;
         cc.limite = 2000;
         cc.depositar(525);
