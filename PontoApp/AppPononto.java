@@ -11,5 +11,10 @@ public class AppPononto {
         System.out.println(p1);
         System.out.println(p2);
 
+        Ponto p3 = new Ponto();
+        p3.x = 99;
+
+        boolean comparacao = p1 == p3;
+        System.out.println(comparacao);
     }
 }
