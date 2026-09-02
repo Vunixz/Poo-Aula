@@ -1,1 +1,1 @@
-Apenas uns códigos que fiz durante a minhas aulas de poo
+Apenas uns códigos que fiz durante as minhas aulas de poo
