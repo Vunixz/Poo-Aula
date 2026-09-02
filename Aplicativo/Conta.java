@@ -12,4 +12,10 @@ public class Conta {
         System.out.printf("Limite: %.2f\n", this.limite);
         System.out.printf("Titular: %s %s\n", this.titular.nome, this.titular.sobrenome);
         
-    }}
+    }
+
+    @Override
+    public String toString() {
+        return "Conta [numero=" + numero + ", saldo=" + saldo + ", limite=" + limite + ", titular=" + titular + "]";
+    }
+}

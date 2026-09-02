@@ -12,7 +12,6 @@ public class AppBanco {
         cc.saldo = 200;
         cc.limite = 1000;
         cc.titular = cli;
-
         cc.infocc();
 
         Cliente outro = new Cliente();
@@ -25,7 +24,6 @@ public class AppBanco {
         outraCC.saldo = 500;
         outraCC.limite = 2000;
         outraCC.titular = outro;
-
         outraCC.infocc();
     }
 }
