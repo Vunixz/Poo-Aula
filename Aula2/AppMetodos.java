@@ -1,4 +1,4 @@
-package Contas;
+package Aula2;
 public class AppMetodos{
 
     public static void main(String[] args){

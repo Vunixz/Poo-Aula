@@ -1,4 +1,4 @@
-package Aplicativo;
+package Aula1;
 
 public class Conta {
     int numero;

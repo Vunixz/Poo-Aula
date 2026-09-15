@@ -1,13 +1,14 @@
-package Aplicativo;
+package Aula1;
 
 public class AppBanco {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Cliente cli = new Cliente();
         cli.nome = "John";
         cli.sobrenome = "Doe";
         cli.documento = "123";
 
         Conta cc = new Conta();
+
         cc.numero = 23;
         cc.saldo = 200;
         cc.limite = 1000;

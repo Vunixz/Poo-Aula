@@ -1,4 +1,4 @@
-package Contas;
+package Aula2;
 
 import javax.swing.JOptionPane;
 

@@ -1,4 +1,4 @@
-package PontoApp;
+package Aula3;
 
 public class Numero {
     int x;

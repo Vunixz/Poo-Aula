@@ -1,12 +1,12 @@
-package Aplicativo;
+package Aula1;
 
 public class Vetor {
     void print(boolean msg, String[] Vetor){
         if (msg) {
             System.out.println("vetor");
         }
-        for (int i = 0; i < Vetor.length; i++){
-            System.out.println(Vetor[i]);
+        for (String Vetor1 : Vetor) {
+            System.out.println(Vetor1);
         }
     }
 
