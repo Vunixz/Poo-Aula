@@ -10,6 +10,7 @@ public class Classe {
         numero = 3;
         //pega uma copia do valor de compartilhado, incrementa e atribui a numeroIncremento
         numeroIncremento = ++compartilhado;
+        
     }
 
     public void info(){
